@@ -41,6 +41,9 @@ namespace MailerService
 
                 System.Net.NetworkCredential NetworkCred = new System.Net.NetworkCredential();
 
+
+
+
                 NetworkCred.UserName = "hasan.anusha@thinksys.com";
 
                 NetworkCred.Password ="thinksyshasananusha19@";
