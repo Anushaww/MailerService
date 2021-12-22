@@ -49,6 +49,9 @@ namespace MailerService
                 smtp.Credentials = NetworkCred;
 
                 smtp.Port = 587;
+
+
+
                 smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
 
                 smtp.Send(mailMessage);
